@@ -1,0 +1,456 @@
+body#main {
+  min-width: 1900px;
+}
+
+.top-area-banner {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+.top-area-banner img {
+  width: 100%;
+}
+
+.top-area-banner .description {
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  width: 90%;
+  transform: translate(-50%, -50%);
+}
+
+.top-area-banner .description p {
+  letter-spacing: 0.25px;
+  font-size: 110px;
+}
+
+.top-area-banner .description a {
+  display: inline-block;
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 10px 38px;
+  border-radius: 30px;
+  margin-top: 50px;
+  background-color: #fff;
+  background-size: 0 100%;
+  background-image: linear-gradient(to left, #000, #000);
+  background-repeat: no-repeat;
+  transition: all 0.3s;
+  border: 1px solid #000;
+}
+
+/* Quick Category */
+.quick-category {
+  width: 95%;
+  margin: 50px auto;
+}
+
+.quick-category h4 {
+  font-size: 24px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+
+.quick-category ul li {
+  display: inline-block;
+  margin-right: 13px;
+}
+
+.quick-category ul li a {
+  font-size: 15px;
+  padding: 10px 30px 9px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+/* Sale banner */
+.sale-banner {
+  width: 100%;
+  height: 55px;
+  text-align: center;
+  line-height: 57px;
+  background: #e7dad4;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+/* Half banner and Third banner*/
+.main-half-banner {
+  margin: 50px auto 100px;
+  width: calc(100% - 50px);
+}
+
+.main-half-banner ul,
+.main-third-banner ul {
+  overflow: hidden;
+}
+
+.main-half-banner ul li {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+.main-third-banner {
+  margin: 120px auto;
+  width: calc(100% - 50px);
+}
+
+.main-third-banner ul li {
+  float: left;
+  width: 33.332%;
+  box-sizing: border-box;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+.main-half-banner ul li img,
+.main-third-banner ul li img {
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.main-half-banner ul li:hover img,
+.main-third-banner ul li:hover img {
+  border-radius: 40px;
+}
+
+.main-half-banner .description,
+.main-third-banner .description {
+  text-align: center;
+  font-size: 14px;
+}
+
+.main-half-banner .description p,
+.main-third-banner .description p {
+  font-size: 21px;
+  margin: 0 0 2px;
+  text-transform: capitalize;
+}
+
+/* Product List */
+.new-product {
+  width: 100%;
+}
+
+.new-product h4 {
+  width: 95%;
+  margin: 0 auto;
+  font-size: 24px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+
+.new-product .xans-product ul.prdList li.item {
+  float: none;
+  display: inline-block;
+  max-width: 16.666%;
+  padding: 0 10px;
+  min-height: auto;
+  width: auto;
+}
+
+.new-product .xans-product ul.prdList li.item .status {
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.new-product .xans-product ul.prdList li.item .box > a {
+  padding: 0;
+}
+
+.new-product .xans-product ul.prdList .thumb {
+  position: relative;
+}
+
+.new-product .xans-product ul.prdList {
+  display: initial;
+}
+
+.new-product .xans-product ul.prdList .name {
+  text-align: center;
+}
+
+.new-product .xans-product ul.prdList li.item .product-description {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Quarter banner */
+.quarter-banner {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 100px;
+}
+.quarter-banner ul {
+  overflow: hidden;
+}
+.quarter-banner ul li {
+  width: 50%;
+  float: left;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+.quarter-banner ul li img {
+  width: 100%;
+  transition: all 0.3s;
+}
+.quarter-banner ul li:nth-child(2),
+.quarter-banner ul li:nth-child(3) {
+  text-align: right;
+}
+.quarter-banner ul li:nth-child(2) img {
+  max-width: 80%;
+  margin-top: 19.5%;
+  margin-right: -0.5%;
+}
+.quarter-banner ul li:nth-child(2)::after {
+  position: absolute;
+  display: block;
+  top: 167px;
+  left: 190px;
+  font-size: 15px;
+  text-transform: capitalize;
+  content: "your skin, your rules, Neker";
+}
+.quarter-banner ul li:nth-child(2) .description {
+  top: 58%;
+  left: 57.5%;
+}
+.quarter-banner ul li:hover img {
+  border-radius: 40px;
+}
+
+.quarter-banner ul li .description {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 42px;
+}
+.quarter-banner ul li:nth-child(3) .description {
+  top: 40%;
+  left: 61%;
+}
+.quarter-banner ul li:nth-child(3) img {
+  max-width: 80%;
+  margin-right: -0.5%;
+}
+.quarter-banner ul li:nth-child(3)::after {
+  position: absolute;
+  display: block;
+  bottom: 167px;
+  left: 190px;
+  font-size: 15px;
+  text-transform: capitalize;
+  content: "It's comfortable. It's cotton.";
+}
+.quarter-banner ul li:last-child {
+  background-color: #c2d4d3;
+}
+.quarter-banner ul li:last-child img {
+  max-width: 60%;
+  margin: 20%;
+}
+.quarter-banner ul li:first-child .description,
+.quarter-banner ul li:last-child .description {
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.quarter-banner ul li:first-child .title,
+.quarter-banner ul li:last-child .title {
+  display: block;
+  text-align: center;
+  text-shadow: 0 0 5px #ccc;
+}
+
+.quarter-banner ul li:first-child .sub-title {
+  font-size: 14px;
+  display: block;
+  margin-top: 50px;
+  text-align: center;
+  text-shadow: 0 0 5px #ccc;
+}
+.quarter-banner ul li:last-child .sub-title {
+  font-size: 17px;
+  display: block;
+  margin-top: 50px;
+  text-align: center;
+  text-shadow: 0 0 5px #ccc;
+}
+
+/* Insta banner*/
+.insta-banner {
+  width: 100%;
+  margin: 100px auto;
+}
+
+.insta-banner h4 {
+  width: 95%;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  letter-spacing: 0;
+}
+
+.insta-banner ul {
+  padding: 0;
+  width: calc(100% - 10px);
+  margin: 0 auto;
+  padding: 0;
+}
+
+.insta-banner li {
+  position: relative;
+  display: inline-block;
+  width: 20.5%;
+  vertical-align: top;
+  margin: 0 5px;
+  padding: 0;
+  transition: all 0.3s;
+  line-height: 0;
+}
+
+.insta-banner li img {
+  width: 100%;
+}
+
+.insta-banner li .bg {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s;
+  opacity: 0;
+}
+
+.bg {
+  cursor: url(//cdn.shopify.com/s/files/1/0019/2217/0943/t/61/assets/DragMe_Hover_White_128x.png?v=4822465509979971932)
+      64 64,
+    auto !important;
+}
+
+.bg.active {
+  cursor: url(//cdn.shopify.com/s/files/1/0019/2217/0943/t/61/assets/DragMe_Active_White_128x.png?v=9586680929716305189)
+      64 64,
+    auto !important;
+}
+
+.insta-banner li .bg img {
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 20px;
+}
+
+.insta-banner li:hover .bg {
+  opacity: 1;
+}
+
+.top-area-banner .description .button-effect {
+  background-color: #fff;
+  background-size: 0 100%;
+  background-image: linear-gradient(to left, #000, #000);
+  background-repeat: no-repeat;
+  transition: all 0.3s;
+  border: 1px solid #000;
+}
+
+.top-area-banner .description .button-effect:hover {
+  border-color: #000;
+  background-color: #fff;
+  background-image: linear-gradient(to right, #000, #000);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: all 0.3s;
+  color: #fff;
+}
+
+.button-effect {
+  background-color: #fff;
+  background-size: 0 100%;
+  background-image: linear-gradient(to left, #000, #000);
+  background-repeat: no-repeat;
+  transition: all 0.3s;
+  border: 1px solid #000;
+}
+
+.button-effect:hover {
+  border-color: #000;
+  background-color: #fff;
+  background-image: linear-gradient(to right, #000, #000);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: all 0.3s;
+  color: #fff;
+}
+
+#wrap .xans-product ul.prdList .color {
+  display: none;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  top: -50px;
+  display: block;
+  max-width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  overflow: hidden;
+  height: 30px;
+  transition: all 0.3s;
+  opacity: 0;
+}
+
+#wrap .xans-product ul.prdList li:hover .color {
+  opacity: 1;
+}
+
+#wrap .xans-product ul.prdList li .color-chips-num {
+  display: none;
+}
+
+#wrap .xans-product ul.prdList li .chips {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 3px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  opacity: 0.8;
+}
+
+.new-product .swiper-button-next,
+.new-product .swiper-button-prev {
+  display: none !important;
+}
+
+.new-product .btn-shopnow {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.new-product .btn-shopnow .button-effect {
+  font-size: 15px;
+  padding: 10px 40px 9px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  display: inline-block;
+  text-transform: capitalize;
+}

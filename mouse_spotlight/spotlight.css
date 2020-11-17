@@ -1,0 +1,41 @@
+.bg {
+  background-image: url("https://cdn.shopify.com/s/files/1/0251/6054/8418/products/1_1276ac02-42e1-400d-bee9-77cc121e293e_medium.jpg?v=1591855696");
+  background-size: auto;
+  padding-bottom: 50%;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.3s all;
+}
+
+.bg #blur-cover {
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /*background-color: #333;*/
+  background: -moz-radial-gradient(
+    circle closest-side,
+    transparent,
+    rgba(255, 255, 255, 1) 300px
+  );
+  background: -webkit-radial-gradient(
+    circle closest-side,
+    transparent,
+    rgba(255, 255, 255, 1) 300px
+  );
+  background: -ms-radial-gradient(
+    circle closest-side,
+    transparent,
+    rgba(255, 255, 255, 1) 300px
+  );
+  background: -o-radial-gradient(
+    circle closest-side,
+    transparent,
+    rgba(255, 255, 255, 1) 300px
+  );
+}

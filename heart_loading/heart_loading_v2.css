@@ -1,0 +1,121 @@
+/* loading modal 관리 */
+.loading-modal {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  position: fixed;
+  top: 50% !important;
+  left: 50%;
+  width: 61px;
+  height: 60px;
+  overflow: hidden;
+  padding: 2px;
+  text-align: center;
+  text-indent: -999em;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.heart-wrap {
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -8px 0 0 -8px;
+  z-index: 1500;
+}
+
+.heart,
+.heart:before,
+.heart:after {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-color: #ff7092;
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+}
+
+.heart:before {
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-animation: animX 1s infinite 0.75s;
+  animation: animX 1s infinite 0.75s;
+}
+
+.heart:after {
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-animation: animY 1s infinite;
+  animation: animY 1s infinite;
+}
+
+@-webkit-keyframes animX {
+  0%,
+  25% {
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  50%,
+  75% {
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+  }
+}
+@keyframes animX {
+  0%,
+  25% {
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  50%,
+  75% {
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+  }
+}
+@-webkit-keyframes animY {
+  0%,
+  25% {
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  50%,
+  75% {
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+  }
+}
+@keyframes animY {
+  0%,
+  25% {
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  50%,
+  75% {
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+  }
+}
+
+/* 로딩 모달 end */

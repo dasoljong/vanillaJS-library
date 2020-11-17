@@ -1,0 +1,66 @@
+#tabProductContent {
+  width: 100%;
+  position: relative;
+}
+#tabProductContent::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #ccc;
+  position: relative;
+  left: 0;
+  bottom: 10px;
+  z-index: 1;
+}
+#tabProductContent ul {
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;
+  /*     max-width: 500px; */
+  /*     width: 70%; */
+  position: relative;
+  z-index: 2;
+}
+#tabProductContent ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#tabProductContent li {
+  width: 250px;
+  /*     float: left; */
+  display: inline-block;
+  list-style: none;
+  margin: 0 auto;
+}
+#tabProductContent li a {
+  float: left;
+  position: relative;
+  width: 100%;
+  color: #ccc;
+  text-align: center;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 10px 0;
+  border-bottom: 3px solid #ccc;
+  font-weight: 550;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+#tabProductContent li.selected a {
+  color: #000;
+  border-bottom: 3px solid #000;
+}
+.product-size-content {
+  display: none;
+}
+#looxReviews {
+  display: none;
+}
+
+.asd,
+.last {
+  display: none;
+}

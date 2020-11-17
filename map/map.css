@@ -1,0 +1,52 @@
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  margin: 50px 0 0 0;
+  padding: 0 0 50px 0;
+  border-bottom: 1px solid black;
+}
+.containerWrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+.leftContainer {
+  width: 30%;
+  border-right: 1px solid black;
+}
+.storeInfo {
+  height: 100%;
+  list-style: none;
+  padding: unset;
+  margin: unset;
+}
+.storeList {
+  position: relative;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #000;
+  font-size: 13px;
+  line-height: 23px;
+}
+.name {
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.name.select {
+  text-decoration: underline;
+}
+.rightContainer {
+  width: 70%;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 30px;
+  padding: 50px 0;
+  text-align: center;
+  border-top: 1px solid black;
+}
